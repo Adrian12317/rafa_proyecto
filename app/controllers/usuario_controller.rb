@@ -4,6 +4,9 @@ class UsuarioController < ApplicationController
   	puts "Entramos en el back"
   	@suma = 2+2
 
+  	# Crear 1 tablas nuevas (rails g model User) minimo unos 6 campos 
+  	# Crear vista donde puedas ver todos los campos que generamos en las tablas
+  	# Hacer menu en html, que te lleve href="/hola"
 
 
 
