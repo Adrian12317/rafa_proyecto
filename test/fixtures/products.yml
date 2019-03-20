@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Nombre: 
+  Codigo: 
+  Precio: 
+  Stock: 1
+  Existencia: false
+  Tienda: 
+  Promotor: 
+
+two:
+  Nombre: 
+  Codigo: 
+  Precio: 
+  Stock: 1
+  Existencia: false
+  Tienda: 
+  Promotor: 
