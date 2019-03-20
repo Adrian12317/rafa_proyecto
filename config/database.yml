@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: 'rafa'
+  password: '123'
+  pool: 5
+  timeout: 5000
+development:
+  <<: *default
+  database: myapp_development
+test:
+  <<: *default
+  database: myapp_development
+production:
+  <<: *default
+  database: myapp_development
