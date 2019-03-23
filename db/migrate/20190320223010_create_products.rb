@@ -10,6 +10,8 @@ class CreateProducts < ActiveRecord::Migration[5.1]
       t.string :promotor
 
       t.timestamps
+
+    
     end
   end
 end
