@@ -1,5 +1,9 @@
 class ProductoController < ApplicationController
   def index
+
+
+
+    
   	chamarra = Product.new
    
    chamarra.nombre = "Rafa"
@@ -24,29 +28,31 @@ class ProductoController < ApplicationController
         @cham_tienda = ult_chamarra.tienda
          @cham_promotor = ult_chamarra.promotor 
 
-     
-def index
-      #Segunda chamarra
-         chamarra2 = Product.new
-         chamarra2.nombre = "Chamarra Nike Sb Coaches Rompevientos (roja)"
-         chamarra2.codigo = "12317a"
-         chamarra2.precio = 1220.00
-         chamarra2.stock = 15
-         chamarra2.existencia = true
-         chamarra2.tienda = "Nike Norte"
-         chamarra2.promotor = "Nike SB"
 
-         chamarra2.save
+         #Segunda chamarra
 
-          ult_chamarra2 = Product.last
 
-           @cham2_nombre = ult_chamarra2.nombre
-          @cham2_codigo = ult_chamarra2.codigo
-           @cham2_precio = ult_chamarra2.precio
-            @cham2_stock = ult_chamarra2.stock
-             @cham2_existencia = ult_chamarra2.existencia
-              @cham2_tienda = ult_chamarra2.tienda
-               @cham2_promotor = ult_chamarra2.promotor 
-    end
+         nuevo2 = Product.new
+         nuevo2.nombre = "Chamarra Nike Sb Coaches Rompevientos (roja)"
+         nuevo2.codigo = "12317a"
+         nuevo2.precio = 1220.00
+         nuevo2.stock = 15
+         nuevo2.existencia = true
+         nuevo2.tienda = "Nike Norte"
+         nuevo2.promotor = "Nike SB"
+
+         nuevo2.save
+
+          nsb = Product.nuevo2
+
+           @cham2_nombre = nsb.nombre
+          @nsb2_codigo = nsb.codigo
+           @nsb2_precio = nsb.precio
+            @nsb2_stock = nsb.stock
+             @nsb2_existencia = nsb.existencia
+              @nsb2_tienda = nsb.tienda
+               @nsb2_promotor = nsb.promotor
+
+          
   end
 end
