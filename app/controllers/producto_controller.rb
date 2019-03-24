@@ -11,9 +11,11 @@ class ProductoController < ApplicationController
    chamarra.promotor = "Nike SB"
 
    chamarra.save
+end
 
-
-     ult_chamarra = Product.last
+def 
+       
+       ult_chamarra = Product.last
     @cham_nombre = ult_chamarra.nombre
     @cham_codigo = ult_chamarra.codigo
      @cham_precio = ult_chamarra.precio
