@@ -1,17 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>CHAMARRA NIKE SB</title>
 	<link rel="stylesheet" type="text/css" href=".../stylesheet/application.css">
 	
 </head>
 <body>
 <ul class="chamarra">
-	<h1>CHAMARRA NIKE SB</h1>
 
-<h2>Primer producto</h2>	
+<br></br>
+	<center> <h1>CHAMARRA NIKE SB</h1> </center>
+	<div class="contenedor">	
+		<table class="tabla">
+		<tr>
+			<th> No. </th>
+			<th> Nombre</th>
+			<th> Codigo </th>
+			<th> Precio </th>
+			<th> Stock </th>
+			<th> Existencia </th>
+			<th> Tienda </th>
+			<th> Promotor </th>
+			<th>Comprar</th>
+		</tr>
 
-		
+		<tr>
+			<td> 1 </td>
+			<td> <%= @cham_nombre %> </td>
+			<td> <%= @cham_codigo %> </td>
+			<td>  <%= @cham_precio %>  </td>
+			<td> <%= @cham_stock %> </td>
+			<td> <%= @cham_existencia %> </td>
+			<td> <%= @cham_tienda %> </td>
+			<td> <%=  @cham_promotor %> </td>
+			<td><a href="https://articulo.mercadolibre.com.mx/MLM-665758710-chamarra-nike-sb-coaches-rompevientos-100-orignal-foto-real-_JM?matt_tool=27407459&matt_word&gclid=CjwKCAjw1dzkBRBWEiwAROVDLGp9mEjJi_OhWQzB-kg_HnBSlVBUk94KgWHMZlwaPmtK-bV96sk09hoCoHQQAvD_BwE&quantity=1&variation=33268051014" target="_blank" style="color: #fff; ">Enlace</a></td>
+
+		</tr>
+		<tr>
+			<td> 2 </td>
+			<td> <%= @cham2_nombre %> </td>
+			<td> <%= @cham2_codigo %> </td>
+			<td>  <%= @cham2_precio %>  </td>
+			<td> <%= @cham2_stock %> </td>
+			<td> <%= @cham2_existencia %> </td>
+			<td> <%= @cham2_tienda %> </td>
+			<td> <%=  @cham2_promotor %> </td>
+
+		</tr>
+			<tr>
+			<td> 1 </td>
+			<td> <%= @cham_nombre %> </td>
+			<td> <%= @cham_codigo %> </td>
+			<td>  <%= @cham_precio %>  </td>
+			<td> <%= @cham_stock %> </td>
+			<td> <%= @cham_existencia %> </td>
+			<td> <%= @cham_tienda %> </td>
+			<td> <%=  @cham_promotor %> </td>
+
+		</tr>
+			<tr>
+			<td> 1 </td>
+			<td> <%= @cham_nombre %> </td>
+			<td> <%= @cham_codigo %> </td>
+			<td>  <%= @cham_precio %>  </td>
+			<td> <%= @cham_stock %> </td>
+			<td> <%= @cham_existencia %> </td>
+			<td> <%= @cham_tienda %> </td>
+			<td> <%=  @cham_promotor %> </td>
+
+		</tr>
+		</table>
+	</div>
 </ul>
 </body>
 </html>

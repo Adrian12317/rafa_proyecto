@@ -121,7 +121,7 @@ body{
 	transition: all 0.3s;
 
 }
-/*SUBMENUIE */
+/*SUBMENUIR */
 .submenuir{
 	position: absolute;
 	background: #333333;
@@ -157,8 +157,43 @@ body{
 
 }
 
+/*Index /hola*/
+
 .chamarra{
 font-family: 'sans-serif';
 color: #fff;
 
+}
+
+.tabla{
+	border: 1px solid #fff;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 10px;
+}
+.tabla td{
+text-align: center;
+border: 1px solid #fff;
+}
+.tabla tr:hover{
+	background: #CE7D35;
+}
+.tabla th {
+	background: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+.contenedor{
+	margin: 120px auto;
+	width: 800px;
+}
+.tabla th, td{
+	padding: 15px;
+}
+.tabla tr:nth-child(odd){
+background-color: #3b3b3b;
+
+}
+.tabla tr:hover{
+	background: #CE7D35;
 }
