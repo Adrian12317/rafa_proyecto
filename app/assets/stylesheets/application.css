@@ -63,7 +63,7 @@ body{
 
 /*SUBMENUSERVICOS */
 
-.submenuservicios {
+.submenu {
 	position: absolute;
 	background: #333333;
 	width: 120%;
@@ -72,7 +72,7 @@ body{
 	transition: opacity 1.5s;
 
 }
-.submenuservicios > li > a{
+.submenu > li > a{
 	display: block;
 	padding: 15px;
 	color: #fff;
@@ -80,82 +80,18 @@ body{
 	text-decoration: none;
 	
 }
-.menu  li:hover .submenuservicios{
+.menu  li:hover .submenu{
 
 	visibility: visible;
 	opacity: 1;
 }
 
-/*SUBMENUSOBRE */
-.submenusobre{
-	position: absolute;
-	background: #333333;
-	width: 120%;
-	height: 30px;
-	visibility: hidden;
-	opacity: 0;
-	transition: opacity 1.5s;
-
-}
-.submenusobre > li > a> li > a{
-	display: block;
-	padding: 15px;
-	color: #fff;
-	font-family: 'sans-serif';
-	text-decoration: none;
-	
-}
-.menu  li:hover .submenusobre{
-
-	visibility: visible;
-	opacity: 1;
-}
-.submenusobre > li > a{
-	text-decoration: none;
-	font-family: 'sans-serif';
-	color : #fff;
-
-}
-.submenusobre > li > a:hover{
+.submenu > li > a:hover{
 	color: #CE7D35;
 	transition: all 0.3s;
 
 }
-/*SUBMENUIR */
-.submenuir{
-	position: absolute;
-	background: #333333;
-	width: 120%;
-	height: 30px;
-	visibility: hidden;
-	opacity: 0;
-	transition: opacity 1.5s;
 
-}
-.submenuir > li > a> li > a{
-	display: block;
-	padding: 15px;
-	color: #fff;
-	font-family: 'sans-serif';
-	text-decoration: none;
-	
-}
-.menu  li:hover .submenuir{
-
-	visibility: visible;
-	opacity: 1;
-}
-.submenuir > li > a{
-	text-decoration: none;
-	font-family: 'sans-serif';
-	color : #fff;
-
-}
-.submenuir > li > a:hover{
-	color: #CE7D35;
-	transition: all 0.3s;
-
-}
 
 /*Index /hola*/
 
@@ -197,3 +133,57 @@ background-color: #3b3b3b;
 .tabla tr:hover{
 	background: #CE7D35;
 }
+
+/*TITULOS*/
+
+.tituloc{
+	font-size: 50px;
+}
+.titulom{
+	font-family: 'sans-serif': ;
+	color: #fff;
+}
+
+
+
+/*Boton home*/
+.home{
+	margin: 40px;
+	padding: 0px;
+}
+.home{
+	background: #246355;
+	color: #fff;
+	display: block;
+	font-size: 20px;
+	margin: 50px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 80px;
+	text-decoration: none;
+	border-bottom: solid 5px #0F362D;
+
+}
+
+.info h3{
+	font-size: 30px;
+	font: bold;
+	font-family: 'sans-serif';
+	color: #246355;
+	background: #fff;
+	width: 1050px;
+}
+.info p{
+	
+	font-size: 20px;
+	font-family: 'sans-serif';
+	color: #fff;
+	margin: 75px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+
+}
+
+
+
