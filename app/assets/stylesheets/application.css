@@ -134,6 +134,42 @@ background-color: #3b3b3b;
 	background: #CE7D35;
 }
 
+/*TABLA ADIDAS*/
+
+.tabla2{
+	border: 1px solid #fff;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 10px;
+}
+.tabla2 td{
+text-align: center;
+border: 1px solid #fff;
+}
+.tabla2 tr:hover{
+	background: #CE7D35;
+}
+.tabla2 th {
+	background: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+.contenedor{
+	margin: 120px auto;
+	width: 800px;
+}
+.tabla2 th, td{
+	padding: 15px;
+}
+.tabla2 tr:nth-child(odd){
+background-color: #3b3b3b;
+
+}
+.tabla2 tr:hover{
+	background: #CE7D35;
+}
+
+
 /*TITULOS*/
 
 .tituloc{

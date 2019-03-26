@@ -28,6 +28,8 @@ class ProductoController < ApplicationController
         @cham_tienda = ult_chamarra.tienda
          @cham_promotor = ult_chamarra.promotor 
 
+
+
           
   end
 end

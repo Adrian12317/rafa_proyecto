@@ -1,20 +1,11 @@
 class UsuarioController < ApplicationController
   def index
-  	@tiempo = Time.now
-  	puts "Entramos en el back"
-  	@suma = 2+2
 
   	# Crear 1 tablas nuevas (rails g model User) minimo unos 6 campos 
   	# Crear vista donde puedas ver todos los campos que generamos en las tablas
   	# Hacer menu en html, que te lleve href="/hola"
 
     #PRIMER PRODUCTO
-
-  	nuevo = User.new
-  	nuevo.nombre = "Rafa"
-  	nuevo.edad = 12
-  	nuevo.genero = true
-  	nuevo.save
 
     chamarra = Product.new
 
@@ -107,9 +98,28 @@ class UsuarioController < ApplicationController
               @nsb4_tienda = pro4.tienda
                @nsb4_promotor = pro4.promotor
 
-  end
-  def mostrar
-  	un_usuario = User.last
-  	@nombre = un_usuario.nombre
+
+    
+             nuevo5 = Product.new
+         nuevo5.nombre = "Gorra Nike Sb Icon Snapback Hat Negra "
+         nuevo5.codigo = "2345pa"
+         nuevo5.precio = 649.00
+         nuevo5.stock = 0
+         nuevo5.existencia = false
+         nuevo5.tienda = "Nike Altaria"
+         nuevo5.promotor = "Nike SB"
+
+         nuevo5.save
+
+          pro5 = Product.last
+
+           @nsb5_nombre = pro5.nombre
+          @nsb5_codigo = pro5.codigo
+           @nsb5_precio = pro5.precio
+            @nsb5_stock = pro5.stock
+             @nsb5_existencia = pro5.existencia
+              @nsb5_tienda = pro5.tienda
+               @nsb5_promotor = pro5.promotor
+
   end
 end
