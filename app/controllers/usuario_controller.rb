@@ -285,4 +285,180 @@ end
 
       
     end
+
+    def funda
+      
+       canica1= Product.new
+
+         canica1.nombre = "Funda Canica & Nogal 1"
+         canica1.codigo = "FCN1"
+         canica1.precio = 480.00
+         canica1.stock = 12
+         canica1.existencia = true
+         canica1.tienda = "Canica & Nogal/Marketful"
+         canica1.promotor = "Canica & Nogal"
+
+         canica1.save
+
+          can1 = Product.last
+
+       @can1_nombre = can1.nombre
+          @can1_codigo = can1.codigo
+           @can1_precio = can1.precio
+           @can1_stock= can1.stock
+             @can1_existencia = can1.existencia
+              @can1_tienda = can1.tienda
+               @can1_promotor = can1.promotor 
+
+            #SEGUNDO#
+
+            canica2= Product.new
+
+         canica2.nombre = "Funda Canica & Nogal 9"
+         canica2.codigo = "FCN9"
+         canica2.precio = 480.00
+         canica2.stock = 34
+         canica2.existencia = true
+         canica2.tienda = "Canica & Nogal/Marketful"
+         canica2.promotor = "Canica & Nogal"
+
+         canica2.save
+
+          can2 = Product.last
+
+       @can2_nombre = can2.nombre
+          @can2_codigo = can2.codigo
+           @can2_precio = can2.precio
+           @can2_stock= can2.stock
+             @can2_existencia = can2.existencia
+              @can2_tienda = can2.tienda
+               @can2_promotor = can2.promotor 
+
+            #TERCERO#
+            canica3= Product.new
+
+         canica3.nombre = "Funda Canica & Nogal 8"
+         canica3.codigo = "FCN8"
+         canica3.precio = 480.00
+         canica3.stock = 0
+         canica3.existencia = false
+         canica3.tienda = "Canica & Nogal/Marketful"
+         canica3.promotor = "Canica & Nogal"
+
+         canica3.save
+
+          can3 = Product.last
+
+       @can3_nombre = can3.nombre
+          @can3_codigo = can3.codigo
+           @can3_precio = can3.precio
+           @can3_stock= can3.stock
+             @can3_existencia = can3.existencia
+              @can3_tienda = can3.tienda
+               @can3_promotor = can3.promotor 
+
+            #CUARTO#
+
+              canica4= Product.new
+
+         canica4.nombre = "Funda Canica & Nogal 10"
+         canica4.codigo = "FCN10"
+         canica4.precio = 480.00
+         canica4.stock = 43
+         canica4.existencia = true
+         canica4.tienda = "Canica & Nogal/Marketful"
+         canica4.promotor = "Canica & Nogal"
+
+         canica4.save
+
+          can4 = Product.last
+
+       @can4_nombre = can4.nombre
+          @can4_codigo = can4.codigo
+           @can4_precio = can4.precio
+           @can4_stock= can4.stock
+             @can4_existencia = can4.existencia
+              @can4_tienda = can4.tienda
+               @can4_promotor = can4.promotor 
+
+
+    end
+
+    def querida
+
+      querida1= Product.new
+
+         querida1.nombre = "QUERIDA AGENDA 2019"
+         querida1.codigo = "QUE1a"
+         querida1.precio = 749.00
+         querida1.stock = 0
+        querida1.existencia = false
+         querida1.tienda = "Querida Agenda/Marketful"
+         querida1.promotor = "Querida Agenda"
+
+         querida1.save
+
+          queri1 = Product.last
+
+       @que1_nombre = queri1.nombre
+          @que1_codigo = queri1.codigo
+           @que1_precio = queri1.precio
+           @que1_stock= queri1.stock
+             @que1_existencia = queri1.existencia
+              @que1_tienda = queri1.tienda
+               @que1_promotor = queri1.promotor 
+
+
+               #NOMBRE2#
+
+
+               querida2= Product.new
+
+         querida2.nombre = "QUERIDITA"
+         querida2.codigo = "QUE2b"
+         querida2.precio = 425.00
+         querida2.stock = 34
+        querida2.existencia = true
+         querida2.tienda = "Querida Agenda/Marketful"
+         querida2.promotor = "Querida Agenda"
+
+         querida2.save
+
+          queri2 = Product.last
+
+       @que2_nombre = queri2.nombre
+          @que2_codigo = queri2.codigo
+           @que2_precio = queri2.precio
+           @que2_stock= queri2.stock
+             @que2_existencia = queri2.existencia
+              @que2_tienda = queri2.tienda
+               @que2_promotor = queri2.promotor 
+
+               #TERCERO#
+
+               querida3= Product.new
+
+         querida3.nombre = "QUERIDA SEMANA"
+         querida3.codigo = "QUE3c"
+         querida3.precio = 299.00
+         querida3.stock = 0
+        querida3.existencia = false
+         querida3.tienda = "Querida Agenda/Marketful"
+         querida3.promotor = "Querida Agenda"
+
+         querida3.save
+
+          queri3 = Product.last
+
+       @que3_nombre = queri3.nombre
+          @que3_codigo = queri3.codigo
+           @que3_precio = queri3.precio
+           @que3_stock= queri3.stock
+             @que3_existencia = queri3.existencia
+              @que3_tienda = queri3.tienda
+               @que3_promotor = queri3.promotor 
+
+               
+      
+    end
 end

@@ -7,7 +7,8 @@ Rails.application.routes.draw do
  get '/adidas2', to: 'usuario#adidas'
   #Products
   get '/inicio', to: 'producto#index'
-  #ADIDAS
+  get '/canica&nogal', to: 'usuario#funda'
+   get '/querida', to: 'usuario#querida'
  
  
   

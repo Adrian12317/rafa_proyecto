@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QUERIDA AGENDA</title>
+	<link rel="stylesheet" type="text/css" href=".../stylesheet/application.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	
+</head>
+<body>
+<ul class="chamarra">
+
+<a href="/inicio" class="home fas fa-home"  > Home</a>
+
+	<center class= "tituloc"> <h1>QUERIDA</h1> </center>
+
+	<div class="contenedor">	
+		<table class="tabla">
+		<tr>
+			<th> No. </th>
+			<th> Nombre</th>
+			<th> Codigo </th>
+			<th> Precio </th>
+			<th> Stock </th>
+			<th> Existencia </th>
+			<th> Tienda </th>
+			<th> Promotor </th>
+			<th>Imagen</th>
+			<th>Comprar</th>
+		</tr>
+
+		<tr>
+			<td> 1 </td>
+			<td> <%= @que1_nombre %> </td>
+			<td> <%= @que1_codigo %> </td>
+			<td>  <%= @que1_precio %>  </td>
+			<td> <%= @que1_stock %> </td>
+			<td> <%= @que1_existencia %> </td>
+			<td> <%= @que1_tienda %> </td>
+			<td> <%=  @que1_promotor %> </td>
+			<td><img src="https://i.pinimg.com/originals/cf/95/45/cf95453b7c2c2693246ab4d84ad59bcd.jpg" style="width:80px;height:80px;"></td>
+			<td><a href="https://queridaagenda.com/collections/frontpage/products/querida-agenda-2019" target="_blank" style="color: #fff; ">Enlace</a></td>
+
+		</tr>
+		<tr>
+			<td> 2 </td>
+			<td> <%= @que2_nombre %> </td>
+			<td> <%= @que2_codigo %> </td>
+			<td>  <%= @que2_precio %>  </td>
+			<td> <%= @que2_stock %> </td>
+			<td> <%= @que2_existencia %> </td>
+			<td> <%= @que2_tienda %> </td>
+			<td> <%=  @que2_promotor %> </td>
+			<td><img src="https://i.pinimg.com/originals/91/c0/7c/91c07c5cd8f139f4cf999551b41dddde.jpg" style="width:80px;height:80px;"></td>
+			<td><a href="https://queridaagenda.com/collections/frontpage/products/queridita" target="_blank" style="color: #fff; ">Enlace</a></td>
+
+		</tr>
+			<td> 3 </td>
+			<td> <%= @que3_nombre %> </td>
+			<td> <%= @que3_codigo %> </td>
+			<td>  <%= @que3_precio %>  </td>
+			<td> <%= @que3_stock %> </td>
+			<td> <%= @que3_existencia %> </td>
+			<td> <%= @que3_tienda %> </td>
+			<td> <%=  @que3_promotor %> </td>
+			<td><img src="https://cdn.shopify.com/s/files/1/0137/5830/0218/products/Semana_1200x.png?v=1533317519"  style="width:80px;height:80px;"></td>
+			<td><a href="https://queridaagenda.com/collections/frontpage/products/semana" target="_blank" style="color: #fff; ">Enlace</a></td>
+		
+		
+		</table>
+	</div>
+</ul>
+</body>
+</html>
+
