@@ -2,13 +2,13 @@ Rails.application.routes.draw do
 
   get 'producto/index'
 
-  get '/hola', to: 'usuario#index'
-  get '/mostrar', to: 'usuario#mostrar'
-
+  get '/nike', to: 'usuario#index'
+  get '/morisketa', to: 'usuario#mostrar'
+ get '/adidas2', to: 'usuario#adidas'
   #Products
-  get '/chamarra', to: 'producto#index'
+  get '/inicio', to: 'producto#index'
   #ADIDAS
-  get '/adidas', to: 'usuario#adidas'
+ 
  
   
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
